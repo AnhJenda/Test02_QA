@@ -59,12 +59,12 @@ insert into  Utilities(UtilitiesID, UtilitiesName)
 select * from Utilities
 insert into HighLandsCoffeeStore(StoreName, ProvincesID, DistrictID, Address ,UtilitiesID)
 	values
-		(N'Highlands Coffee Nguyễn Văn Lộc', 29, 01, N'16b2 Nguyễn Văn Lộc', 3),
+		(N'Highlands Coffee Nguyễn Văn Lộc', 29, 01, N'16b2 Nguyễn Văn Lộc, Phường Hà Cầu, Hà Đông, Hà Nội', 3),
 		(N'Highlands Coffee AEON MALL Hà Đông', 29, 01, N'AEON MALL Dương Nội, Hà Đông', 3),
 		(N'Highlands Coffee Phúc Thành', 35, 04, N'12b Phúc Thành, Tp.Ninh Bình', 1),
-		(N'Highlands Coffee Nguyễn Bỉnh Khiêm', 50, 05, N'16a Nguyễn Bỉnh Khiêm', 3),
-		(N'Highlands Coffee Nguyễn Chí Thanh', 50, 06, N'21b2 Nguyễn Chí Thanh', 2),
-		(N'Highlands Coffee Đinh Tiên Hoàng', 50, 07, N'82b Đinh Tiên Hoàng', 3)
+		(N'Highlands Coffee Nguyễn Bỉnh Khiêm', 50, 05, N'16a Nguyễn Bỉnh Khiêm, Quận 1, TP.HCM', 3),
+		(N'Highlands Coffee Nguyễn Chí Thanh', 50, 06, N'21b2 Nguyễn Chí Thanh, Quận 10, TP.HCM', 2),
+		(N'Highlands Coffee Đinh Tiên Hoàng', 50, 07, N'82b Đinh Tiên Hoàng, quận Bình Thạnh, TP.HCM', 3)
 select * from HighlandsCoffeeStore
 -- Truy Vấn
 	-- Truy vấn tới các quán ở Hà Nội
