@@ -68,11 +68,11 @@ insert into HighLandsCoffeeStore(StoreName, ProvincesID, DistrictID, Address ,Ut
 select * from HighlandsCoffeeStore
 -- Truy Vấn
 	-- Truy vấn tới các quán ở Hà Nội
-	select StoreName from HighLandsCoffeeStore
+	select StoreName, Address from HighLandsCoffeeStore
 	where ProvincesID = 29
 	-- Truy vấn tới các quán ở quận 1 Tp.HCM
-	select StoreName from HighLandsCoffeeStore
+	select StoreName, Address from HighLandsCoffeeStore
 	where ProvincesID = 50 and DistrictID = 05
 	-- Truy vấn tới các quán có tiện ích wifi miễn phí
-	select StoreName from HighLandsCoffeeStore
+	select StoreName, Address from HighLandsCoffeeStore
 	where UtilitiesID = 1 or UtilitiesID = 3
