@@ -32,7 +32,7 @@ create table HighLandsCoffeeStore (
 	ProvincesID int foreign key references Provinces(ProvinceID),
 	DistrictID int foreign key references District(DistrictID),
 	Address nvarchar(400),
-	UtilitiesID　int foreign key references Utilities
+	UtilitiesID　int foreign key references Utilities(UtilitiesID)
 )
 -- Thêm dữ liệu vào các bảng
 insert into Provinces(ProvinceID, ProvinceName)
